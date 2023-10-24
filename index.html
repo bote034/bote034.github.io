@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+      <div class="cookie-popup" id="cookie-popup">
+        <div class="cookie-popup-content">
+            <p>Bu içerik mobil cihazlardaki uyumsuzluklar olduğundan lütfen daha iyi bir deneyim için bilgisayarınızı kullanmayı tercih edin</p>
+            <button onclick="acceptCookies()">Tamam</button>
+        </div>
+    </div>
+    <script>
+        function acceptCookies() {
+            var cookiePopup = document.getElementById("cookie-popup");
+            cookiePopup.style.display = "none";
+        }
+        window.onload = function() {
+            var cookiePopup = document.getElementById("cookie-popup");
+            cookiePopup.style.display = "block";
+        }
+    </script>
     <div class="baslık"><br>
         Öğretim Teknolojilerinin Tarihi Gelişimi
    </div>
