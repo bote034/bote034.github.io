@@ -220,7 +220,8 @@ body{
       span{
         background-color:none ;
       }
-      .box{
+      .box{ 
+        width: 800px;
         align-items: center;
         padding: 100px;
       }
