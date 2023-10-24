@@ -222,6 +222,7 @@ body{
         background-color:none ;
       }
       .box{ 
+        float:left;
         width: 800px;
         align-items: center;
         padding: 0px;
