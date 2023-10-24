@@ -160,7 +160,7 @@ body{
       margin: 1rem;
       margin-bottom: 20px;
       border-radius: 6px;
-      width: 150px;
+      width: 225px;
     }
     
     .timeline-component {
@@ -206,8 +206,8 @@ body{
       left: 50%;
       transform: translate(-50%, -50%);}
       img{
-        width: 150px;
-        height: 75px;
+        width: 200px;
+        height: 113px;
         border-radius: 5%;
       }
       h1{
